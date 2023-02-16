@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require("mongoose");
 const bodyParser = require('body-parser');
 require('dotenv').config();
-const router = require("../Hr management system/router/router");
+const router = require("../HR_Management_System/router/router");
 const cors = require("cors");
 
 mongoose.connect(process.env.MONGODB_URL);

@@ -78,6 +78,9 @@ const user = new mongoose.Schema({
     dateOfBirth : {
         type: String
     },
+    personalEmail : {
+        type: String
+    },
     marrAnniversiry : {
         type: String
     },
